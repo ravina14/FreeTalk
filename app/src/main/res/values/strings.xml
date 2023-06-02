@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Free Talk</string>
+    <string name="user_name">hello i am</string>
+    <string name="user_days">1 day ago</string>
+    <string name="user_cm">165cm</string>
+    <string name="user_kg">53kg</string>
+    <string name="follow">Follow</string>
+    <string name="user_question">What\'s the best product from last Monday\'s event?</string>
+    <string name="user_answer">Pops who attended the 2023 S/S trend event last Monday~ Which product did you like best? \n\nLooking at reviews, low-rise? That\'s the best response and that table\nYou said it was the most fun, right???\n\nI heard that low rise is the trend this year, so I want to try it, but I am skinny.\nI\'m so curious about whether it would look good on people who don\'t\nIf there are pops that have been there, please share a review of how it was~~!</string>
+    <string name="user_comment">Oh my, the table I was at must have had the best reaction🤭 Woojjallami-nim knows, but I also have a normal body, no less than that. Isn\'t it?! I was willing to take on the challenge, but it was harder than I thought.It was fine! A live review is coming up today. Please take a look!</string>
+    <string name="_5">5</string>
+    <string name="comment_reply">oh awesome! Did you say the live review was uploaded today? I need to take care of it</string>
+    <string name="reply_user_name">ㅇㅅㅇ</string>
+    <string name="please_leave_a_comment">Please leave a comment.</string>
+    <string name="registration">Registration</string>
+</resources>

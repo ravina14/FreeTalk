@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_9sdp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imgUserTop"
+        android:layout_width="@dimen/_26sdp"
+        android:layout_height="@dimen/_26sdp"
+        android:src="@drawable/ic_user_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:fontFamily="@font/noto_sans_bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/_11sdp"
+        app:layout_constraintBottom_toBottomOf="@id/imgUserTop"
+        app:layout_constraintStart_toEndOf="@id/imgUserTop"
+        app:layout_constraintTop_toTopOf="@id/imgUserTop" />
+
+    <TextView
+        android:id="@+id/txtUserDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_3sdp"
+        android:fontFamily="@font/noto_sans_medium"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/_8sdp"
+        app:layout_constraintBottom_toBottomOf="@id/imgUserTop"
+        app:layout_constraintStart_toEndOf="@id/txtUserName"
+        app:layout_constraintTop_toTopOf="@id/imgUserTop" />
+
+    <ImageView
+        android:id="@+id/imgMore"
+        android:layout_width="@dimen/_9sdp"
+        android:layout_height="@dimen/_2sdp"
+        android:src="@drawable/ic_more"
+        app:layout_constraintBottom_toBottomOf="@id/imgUserTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/imgUserTop"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtReply"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:fontFamily="@font/noto_sans_medium"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/_9sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/txtUserName"
+        app:layout_constraintTop_toBottomOf="@id/imgUserTop" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clRemarkDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="@id/txtReply"
+        app:layout_constraintTop_toBottomOf="@id/txtReply">
+
+        <ImageView
+            android:id="@+id/imgFavourite"
+            android:layout_width="@dimen/_19sdp"
+            android:layout_height="@dimen/_19sdp"
+            android:src="@drawable/ic_favourite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txtFavouriteCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_7sdp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/_7sdp"
+            app:layout_constraintBottom_toBottomOf="@id/imgFavourite"
+            app:layout_constraintStart_toEndOf="@id/imgFavourite"
+            app:layout_constraintTop_toTopOf="@id/imgFavourite" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
