@@ -102,9 +102,9 @@ public class MainActivity extends AppCompatActivity {
             List<ResponseCommentReply> replyList = new ArrayList<>();
             for (int j = 0; j < 2; j++) {
                 ResponseCommentReply reply = new ResponseCommentReply();
-                reply.setReplyUserName(getString(R.string.user_name));
+                reply.setReplyUserName(getString(R.string.reply_user_name));
                 reply.setReplyDays(getString(R.string.user_days));
-                reply.setReply(getString(R.string.user_comment));
+                reply.setReply(getString(R.string.comment_reply));
                 reply.setReplyFavouriteCount(getString(R.string._5));
                 reply.setReplyTalkCount(getString(R.string._5));
 

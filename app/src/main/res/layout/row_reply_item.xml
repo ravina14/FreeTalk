@@ -42,8 +42,8 @@
 
     <ImageView
         android:id="@+id/imgMore"
-        android:layout_width="@dimen/_9sdp"
-        android:layout_height="@dimen/_2sdp"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
         android:src="@drawable/ic_more"
         app:layout_constraintBottom_toBottomOf="@id/imgUserTop"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,7 +65,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/clRemarkDetails"
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/_30sdp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_5sdp"
         app:layout_constraintStart_toStartOf="@id/txtReply"
         app:layout_constraintTop_toBottomOf="@id/txtReply">
@@ -84,7 +84,6 @@
             android:id="@+id/txtFavouriteCount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_7sdp"
             android:fontFamily="@font/roboto_regular"
             android:textColor="@color/gray"
             android:textSize="@dimen/_7sdp"
